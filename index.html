@@ -1,34 +1,105 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Sylvia - Web Developer</title>
-  <style>
-    body {
-      background-color: #6A0DAD;
-      color: white;
-      font-family: Arial, sans-serif;
-      text-align: center;
-      padding-top: 50px;
-    }
-    img {
-      border-radius: 50%;
-      border: 3px solid white;
-      margin-bottom: 20px;
-    }
-    h1 {
-      font-size: 28px;
-    }
-  </style>
-    <!-- Facebook Preview -->
-  <meta property="og:title" content="Sylvia — Web Developer 💜">
-  <meta property="og:description" content="My first portfolio website. Built with HTML & CSS. Open to web projects.">
+  <title>Sylvia — Web Developer Lagos 💜</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <!-- Facebook Preview -->
+  <meta property="og:title" content="Sylvia — Web Developer Lagos 💜">
+  <meta property="og:description" content="I build simple, fast websites for small businesses. Based in Lagos.">
   <meta property="og:url" content="https://sylviaoluchukwu30-tech.github.io/Hello-world/">
   <meta property="og:type" content="website">
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f8f4ff;
+      color: #333;
+      margin: 0;
+      padding: 0;
+      line-height: 1.6;
+    }
+    .container {
+      max-width: 600px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+    .hero {
+      text-align: center;
+      padding: 60px 20px;
+      background-color: #6a0dad;
+      color: white;
+      border-radius: 0 0 20px 20px;
+    }
+    .hero h1 { margin: 0; font-size: 2.5em; }
+    .hero p { font-size: 1.2em; opacity: 0.9; }
+    .section {
+      background: white;
+      margin: 20px 0;
+      padding: 25px;
+      border-radius: 10px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+    .section h2 {
+      color: #6a0dad;
+      margin-top: 0;
+      border-bottom: 2px solid #f0e6ff;
+      padding-bottom: 10px;
+    }
+    .project {
+      margin: 15px 0;
+    }
+    .btn {
+      display: inline-block;
+      background: #6a0dad;
+      color: white;
+      padding: 12px 25px;
+      text-decoration: none;
+      border-radius: 5px;
+      font-weight: bold;
+      margin-top: 10px;
+    }
+    .btn:hover { background: #5a0b9d; }
+  </style>
 </head>
 <body>
-  <img src="avatar.png" alt="Sylvia" width="300">
-  <h1>Hi, I'm Sylvia — Web Developer 💜</h1>
-  <p>This is my first website. More coming soon!</p>
-  <p><a href="https://wa.me/2348065164674" style="color:white; background:#25D366; padding:10px 20px; border-radius:20px; text-decoration:none;">Chat With Me on WhatsApp</a></p>
+
+  <div class="hero">
+    <h1>Sylvia Oluchukwu</h1>
+    <p>Web Developer | Lagos, Nigeria</p>
+    <p>I build simple, fast websites for small businesses 💜</p>
+  </div>
+
+  <div class="container">
+    
+    <div class="section">
+      <h2>About Me</h2>
+      <p>Hi, I’m Sylvia. I’m a new web developer based in Lagos. I help small businesses and personal brands get online with clean, mobile-friendly websites. I build with HTML & CSS and I’m currently learning JavaScript.</p>
+      <p><strong>Currently taking on 2 new projects.</strong></p>
+    </div>
+
+    <div class="section">
+      <h2>My Projects</h2>
+      
+      <div class="project">
+        <h3>1. Bakery Landing Page</h3>
+        <p>Simple 1-page site for a local bakery to show menu, location, and WhatsApp order button. Built with HTML & CSS.</p>
+      </div>
+      
+      <div class="project">
+        <h3>2. Personal Portfolio</h3>
+        <p>This website you’re on right now. My first deploy using GitHub Pages.</p>
+      </div>
+    </div>
+
+    <div class="section">
+      <h2>Contact Me</h2>
+      <p>Need a website? Let’s talk.</p>
+      <p><strong>WhatsApp:</strong> +234 XXX XXX XXXX</p>
+      <p><strong>Email:</strong> yourname@gmail.com</p>
+      <a href="https://wa.me/234XXXXXXXXXX" class="btn">Message Me on WhatsApp</a>
+    </div>
+
+  </div>
 </body>
 </html>
